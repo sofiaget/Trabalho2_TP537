@@ -2,7 +2,7 @@ import numpy as np
 
 #Com reposição
 
-#Listas com 10 bolas de cada cor
+#Definindo listas de bolas de diferentes cores, cada uma com 10 elementos.
 vermelho=['v','v','v','v','v','v','v','v','v','v']
 azul=['az','az','az','az','az','az','az','az','az','az']
 amarelo=['am','am','am','am','am','am','am','am','am','am']
@@ -10,7 +10,10 @@ roxo=['r','r','r','r','r','r','r','r','r','r']
 #xx=vermelho.count('d')
 #print(xx)
 
+#Criando uma lista contendo todas as bolas de diferentes cores.
 chapeu=azul+roxo+amarelo+vermelho #Colocando as listas em apenas uma
+
+#Inicializando a variável de contagem como zero e definindo o número de amostras.
 count=0
 N=10000 #numero de amostras
 for i in range(N):
